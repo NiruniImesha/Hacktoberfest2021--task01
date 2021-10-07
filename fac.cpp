@@ -1,18 +1,26 @@
 #include <stdio.h>
+#include <math.h> 
 
-int main() {
+int main() 
+{
   int a,b,c,d,e,f;
-  printf("Enter first number : ")
+  
   scanf("%d",&a);
-  printf("Enter second number : ")
-  scanf("%f",&b);
+  scanf("%d",&b);
 
-for(int i=1;i<=a;++i){
+  d=1;
+  e=1;
+
+  for(int i=1;i<=a;++i)
+  {
    d=d*i; 
   }
-for(int i=i;i<=b;++i){
+  
+  for(int i=1;i<=b;++i)
+  {
    e=e*i; 
   }
  
-  print("%d\n%d",d,e);
+  printf("%d\n%d",d,e);
+  
 }
