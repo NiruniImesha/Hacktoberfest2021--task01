@@ -8,7 +8,7 @@ int main() {
   e=1;
   
   printf("Enter first number : ");
-  scanf("%d",&a);//Input Number
+  scanf("%d",&a);//Input a Number
   printf("Enter second number : ");
   scanf("%d",&b);
 
@@ -19,5 +19,5 @@ for(int i=1;i<=b;++i){
    e=e*i; 
   }
  
-  printf("%d\n%d",d,e);//Display output
+  printf("%d\n%d",d,e);//Display the output
 }
